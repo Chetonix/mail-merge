@@ -5,7 +5,7 @@ print(names_list)
 
 for name in names_list:
     stripped_name = name.strip()
-    print(stripped_name)
+    #print(stripped_name)
     with open("./Input/example_output.txt", "r") as letter_contents:
         contents = letter_contents.read()
     output = contents.replace("[name]", stripped_name)
