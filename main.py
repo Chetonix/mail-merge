@@ -1,7 +1,7 @@
 with open("./Input/names.txt", "r") as data:
     names_list = data.readlines()
 
-print(names_list)
+#print(names_list)
 
 for name in names_list:
     stripped_name = name.strip()
